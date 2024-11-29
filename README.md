@@ -12,3 +12,8 @@ The gateway is being used together with another project called [Discovery](https
 
 #### The exposed port
 The responsible for determining which port will be exposed to give access into the server is the gateway itself. So, the exposed port will be the port in which the gateway project is running.
+
+#### Load balancing the request
+The gateway also works as a load balancer when multiple instances of the same microservice are up, so he automatically balance the demand between the instances.
+
+![peluargo-app-load-balancer drawio](https://github.com/user-attachments/assets/5db33353-61f1-4f3e-a254-ece6bf607792)
